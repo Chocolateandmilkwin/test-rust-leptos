@@ -390,7 +390,7 @@ async function __wbg_init(input) {
     if (wasm !== undefined) return wasm;
 
     if (typeof input === 'undefined') {
-        input = new URL('test-rust-leptos-df88f36ba6b3d859_bg.wasm', import.meta.url);
+        input = new URL('test-rust-leptos-e5390baf69cf8af8_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 
